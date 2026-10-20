@@ -37,6 +37,8 @@ freelance-nda example.json -o nda.html
 
 Only `party_a` and `party_b` are required; everything else is optional and has a sensible default.
 
+[freelance-nda-js](https://github.com/kleogeos/freelance-nda-js) — same output, `npx` instead of `pip`, no install.
+
 `mutual` (default `true`) generates a mutual NDA where both sides have the same obligations — the usual case for a freelance discovery call where both parties might share sensitive information. Set it to `false` for a one-way NDA where only `party_a` is the disclosing party.
 
 ### Is this legal advice?
